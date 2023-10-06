@@ -34,8 +34,8 @@ class PlayGroundProjectApplicationTests {
         mentor.setEmail("mentor@ew.com");
         mentor.setId(2);
         mentorRepository.save(mentor);
-        Optional<Mentor> m = mentorRepository.findMentorByIdIs(new Long(2));
-        System.out.println("mentor is : "+m.getClass().getName());
+//        Optional<Mentor> m = mentorRepository.findMentorByIdIs(new Long(2));
+//        System.out.println("mentor is : "+m.getClass().getName());
 
     }
 
